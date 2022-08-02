@@ -1,0 +1,86 @@
+/* Arquivo de estilizações da tela de projetos do portfólio */
+
+.container-projetos{
+    background-color: #111111;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.titulo h2{
+    color: #D3D3D3;
+    font-size: 75px;
+    width: 1130;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.caixa-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #191919;
+    height: 365px;
+    width: 335px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card h5{
+    color: #D3D3D3;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: #D3D3D3;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.botao-acesso{
+    border: 2px;
+    color: #D3D3D3;
+    background-color: transparent;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #363d40;
+    height: 30px;
+    width: 140px;
+}
+
+.botao-acesso:hover{
+    border-color: #ada8a8;
+    background-color: transparent;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.temporario-em-breve{
+    transform: rotate(-47deg);
+    background-color: #262626;
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    top: 50%;
+    margin-top: -30px;
+    left: -24%;
+}
+
+ .temporario-em-breve h5:hover{
+    letter-spacing: 6px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}

@@ -1,0 +1,221 @@
+/* Arquivo de estilizações iniciais da página web e da tela inicial do portfólio */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-sari;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#video-background{
+    position: fixed;
+    z-index: -1;
+
+    width: 100%;
+    height: auto;
+}
+
+.background{
+    position: relative;
+    background-color: #00000095;
+    height: 100vh;
+    width: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #video-background{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #video-background{
+        width: auto;
+        height: 100%;
+    }
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-shadow: 2px 2px #000000;
+}
+
+nav h2{
+    color: #DCDCDC;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+span{
+    color: #48D1CC;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: #DCDCDC;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #48D1CC;
+    transform: scale(1.2);
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+    text-shadow: 2px 2px #000000;
+}
+
+h4{
+    color: #DCDCDC;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+h1{
+    color: #DCDCDC;
+    margin: 20px 0px;
+    font-size: 75px;
+}
+
+h3{
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: #DCDCDC;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.digitando-animation{
+    animation: piscaCursor 500ms steps(42) infinite normal, 
+    digitando 4s steps(42) 1.2s normal both;
+}
+
+@keyframes piscaCursor{
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes digitando{
+    from {
+        width: 0;
+    }
+    to {
+        width: 18.5em;
+    }
+}
+
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.icone-menu .menu{
+    font-size: 30px;
+    color: #48D1CC;
+    margin-top: 44px;
+    margin-right: 30px;
+    display: none;
+}
+
+#barra-menu{
+    background-color: #26262690;
+    height: 100vh;
+    width: 0px;
+    padding-top: 35px;
+    transition: all 0.3s;
+}
+
+#barra-menu ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+#barra-menu ul li a{
+    color: #DCDCDC;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+}
+
+#barra-menu ul li a:hover{
+    border: solid 1px #48D1CC;
+    padding: 10px;
+    color: #48D1CC;
+    border-radius: 15px;
+    background-color: #262626;
+}
+
+@media screen and (max-width:720px) and (min-width: 375px){
+    nav ul li{
+        display: none;
+    }
+    .icone-menu .menu{
+        display: block;
+    }
+    #barra-menu{
+        height: 100vh;
+        z-index: 1;
+    }
+    .main h4{
+        font-size: 22px;
+    }
+    .main h1{
+        font-size: 45px;
+    }
+    .main h3{
+        font-size: 16px;
+    }
+    .background-sobre-mim{
+        align-items: center;
+    }
+    .main-sobre img{
+        width: 280px;
+        height: auto;
+    }
+    .imagem-perfil{
+        margin-top: -60px;
+        margin-bottom: 70px;
+    }
+    .text-sobre-mim h2, .text-sobre-mim h5{
+        margin-left: 70px;
+    }
+    .terminal-sobre-mim{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .text-sobre-mim h2, .titulo-conhecimento h2, .titulo h2, footer h6{
+        font-size: 50px !important;
+    }
+}

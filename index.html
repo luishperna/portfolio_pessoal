@@ -1,0 +1,182 @@
+<!--Definição do tipo de documento e idioma-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<!--Setando metadados, título, links e scripts do documento-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luís Henrique Perna">
+    <meta name="description" content="Portfólio pessoal para divulgar meus projetos e
+    minhas habilidades na área de desenvolvimento de software">
+
+    <title>Portfólio | Luís Perna</title>
+    
+    <link rel="icon" href="data:,">
+    <!--Tela inicial-->
+    <link rel="stylesheet" type="text/css" href="assets/css/home.css"/>
+    <!--Tela sobre mim-->
+    <link rel="stylesheet" type="text/css" href="assets/css/about-me.css"/>
+    <!--Tela conhecimento-->
+    <link rel="stylesheet" type="text/css" href="assets/css/knowledge.css"/>
+    <!--Tela meus projetos-->
+    <link rel="stylesheet" type="text/css" href="assets/css/projects.css"/>
+    <!--Tela contato-->
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css"/>
+    
+    <!--Importando ícones-->
+    <script src="https://kit.fontawesome.com/e0f7e9f0d6.js" crossorigin="anonymous"></script>
+</head>
+
+<!--Corpo da página web-->
+<body>
+    <!--Tela inicial-->
+    <div class="background">
+        <video id="video-background" poster="assets/img/primeiro_frame.png" autoplay muted loop>
+            <source src="assets/video/background-video.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <h2>Port<span>fólio</span></h2>
+            <ul class="navegacao">
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#meus-conhecimento">Conhecimento</a></li>
+                <li><a href="#meus-projetos">Projetos</a></li>
+                <li><a href="#meus-contatos">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <h4>Olá, sou o</h4>
+            <h1>Luís <span>Perna</span></h1>
+            <h3 class="digitando-animation">Estudante de Engenharia de Sotfware =)</h3>
+        </div>
+        <aside>
+            <div class="icone-menu" onclick="abriMenu()">
+                <div class="menu"><i class="fa-solid fa-bars"></i></div>
+            </div>
+            <div id="barra-menu">
+                <ul>
+                    <li><a href="#sobre-mim">Sobre Mim</a></li>
+                    <li><a href="#meus-conhecimento">Conhecimento</a></li>
+                    <li><a href="#meus-projetos">Projetos</a></li>
+                    <li><a href="#meus-contatos">Contato</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <!--Fim tela inicial-->
+
+    <!--Tela sobre mim-->
+    <section class="background-sobre-mim" id="sobre-mim">
+        <div class="main-sobre">
+            <img class="imagem-perfil" src="assets/img/perfil.png">
+            <div class="text-sobre-mim">
+                <h2>Sobre Mim</h2>
+                <h5>Desenvolvedor</h5>
+                <div class="terminal-sobre-mim">
+                    <div class="terminal-topo">
+                        <img src="assets/img/icone_terminal.png">
+                            <div class="terminal-botoes">
+                                <button id="minimizar" type="button"><img src="assets/img/minimizar.png"/></button>
+                                <button id="maximizar" type="button"><img src="assets/img/maximizar.png"/></button>
+                                <button id="fechar" type="button"><img src="assets/img/fechar.png"/></button>
+                            </div>
+                    </div>
+                    <p id="text-sobre-mim">Luis@Website ~<br>
+                        $ cat meu_portfolio/sobre_mim.txt<br>
+                        Saudações! Me chamo Luís Henrique Perna, tenho 19 anos e sou formado em Téc. Automação Industrial - IFSP.<br>
+                        Atualmente estou graduando em Engenharia de Software e buscando sempre aprimorar os meus conhecimentos na área.<br>
+                        Sou cativado em propor soluções a partir das tecnologias e aprender nos processos de desenvolvimento.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fim tela sobre mim-->
+
+    <!--Tela conhecimento-->
+    <section class="conhecimento" id="meus-conhecimento">
+        <div class="titulo-conhecimento">
+            <h2>Conhecimento</h2>
+            <p>Revele passando o mouse (computador) ou clicando (smartphone) em cima do cartão</p>
+        </div>
+        <div class="faces-cartao">
+            <div class="cartao-frontal">
+                <h5 class="titulo-cartao">Relevar cartão</h5>
+                <p class="descrição-cartão">Descubra as tecnologias que estou utilizando ou estudando no momento.</p>
+            </div>
+            <div class="cartao-traseira">
+                <h5>Linguagens (geral):</h5>
+                <p>HTML | CSS | JavaScript | Python</p>
+                <h5>Banco de Dados:</h5>
+                <p>SQL | SGBD MySQL</p>
+                <h5>Versionamento e Hopedagem de código-fonte:</h5>
+                <p>Git | GitHub</p>
+                <h5>Deploy:</h5>
+                <p>GitHub Pages | Netlify | Heroku</p>
+            </div>
+        </div>
+    </section>
+    <!--Fim tela conhecimento-->
+
+    <!--Tela meus projetos-->
+    <div class="container-projetos" id="meus-projetos">
+        <div class="titulo">
+            <h2>Meus projetos</h2>
+        </div>
+        <div class="caixa-projetos">
+           <div class="card">
+                <h5>Chatbot</h5>
+                <p>Bot Telegram - @lup_ajuda_bot<br>
+                A proposta deste bot é fornecer ao usuário,<br>
+                de maneira rápida e simples, os principais<br>
+                números telefônicos de emergência.<br>
+                Além disso, outras funcionalidades foram<br>
+                incrementadas para dar apoio rápido.<br>
+                -- Ter a informação certa, na hora certa,<br>
+                pode se tornar vital --
+                </p>
+                <a href="https://github.com/luishperna/telegram_lup_ajuda_bot" target="_blank"><button class="botao-acesso">Acessar projeto</button></a>
+           </div>
+           <div class="card">
+                <h5>Página Web</h5>
+                <p>Portfólio pessoal</p>
+                <button class="botao-acesso">Acessar projeto</button>
+            </div>
+            <div class="card">
+                <h5>Aplicação Desktop</h5>
+                <p>Automatizador de Relatórios</p>
+                <button class="botao-acesso">Acessar projeto</button>
+            </div>
+            <div class="card">
+                <div class="temporario-em-breve">
+                    <h5>Em breve</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fim tela meus projetos-->
+
+    <!--Tela contato-->
+    <footer id="meus-contatos">
+        <h6>Contato</h6>
+        <p>Para me conhecer mais acesse:</p>
+        <div class="redes-sociais">
+            <a href="https://github.com/luishperna" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/luishperna/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/luishperna/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+        <p>luishperna@gmail.com</p>
+        <div class="copyright">
+            <p>Copyright by Luís Henrique Perna</p>
+        </div>
+    </footer>
+    <!--Fim tela contato-->
+
+    <!--Importando scripts para trabalhar botõs do terminal sobre mim-->
+    <script defer src="assets/js/maximize-minimize.js"></script>
+    <!--Importando scripts para trabalhar com responsividade no CSS-->
+    <script defer src="assets/js/responsive-menu.js"></script>
+</body>
+
+</html>

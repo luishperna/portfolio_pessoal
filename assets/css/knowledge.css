@@ -1,0 +1,88 @@
+/* Arquivo de estilizações da tela de conhecimento do portfólio */
+
+.conhecimento{
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    background-color: #312b2b;
+    flex-wrap: wrap;
+}
+
+.titulo-conhecimento h2{
+    color: #C0C0C0;
+    font-size: 75px;
+    width: 1130;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.titulo-conhecimento p{
+    color: #C0C0C0;
+    font-size: 25px;
+    width: 1130;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.titulo-cartao{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.descrição-cartão{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.faces-cartao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cartao-frontal, .cartao-traseira{
+    position: absolute;
+    background-color: #341d08;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.7s;
+    color: #C0C0C0;
+    border: 2px solid #A9A9A9;
+}
+
+.cartao-traseira h5{
+    font-size: 15px;
+    color: #48D1CC;
+}
+
+.cartao-traseira p{
+    font-size: 16px;
+    color: #DCDCDC;
+    margin-bottom: 5px;
+}
+
+.cartao-frontal{
+    z-index: 1;
+}
+
+.cartao-traseira{
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    background-color: #262626;
+}
+
+.faces-cartao:hover .cartao-frontal{
+    transform: rotateY(180deg);
+    z-index: 0;
+}
+
+.faces-cartao:hover .cartao-traseira{
+    transform: rotateY(0);
+    z-index: 1;
+}

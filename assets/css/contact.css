@@ -1,0 +1,57 @@
+/* Arquivo de estilizações da tela de contato do portfólio */
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6{
+    font-size: 75px;
+    color: #C0C0C0;
+}
+
+footer p{
+    font-size: 25px;
+    color: #C0C0C0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.redes-sociais{
+    display: flex; 
+}
+
+.redes-sociais a{
+    color: #C0C0C0;
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.redes-sociais a:hover{
+    transform: rotate(360deg);
+    transition: all 0.5s;
+    color: #48D1CC;
+}
+
+.copyright{
+    position: relative;
+    font-size: 14px;
+}
+
+.copyright p{
+    position: relative;
+    color: #A9A9A9;
+    top: 25px;
+    font-size: 14px;
+}
