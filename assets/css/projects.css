@@ -48,6 +48,15 @@
     margin-bottom: 25px;
 }
 
+.link_portfolio{
+    color: #D3D3D3;
+}
+
+.link_portfolio:hover{
+    text-decoration: underline;
+	color:#48D1CC;
+}
+
 .botao-acesso{
     border: 2px;
     color: #D3D3D3;
