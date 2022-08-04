@@ -8,12 +8,17 @@
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 <img src="https://img.shields.io/badge/github%20pages-%23121011?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
+
+<h4 align="center">
+Esta página web foi desenvolvida com o objetivo de ser o meu portfólio para divulgação de meus projetos, atuais e futuros, de software.
+</h4>
+
 <div align="center">
   <img src="assets/img/tela_inicial.png"/>
 </div>
 
 <h4 align="center">
-Esta página web foi desenvolvida com o objetivo de ser o meu portfólio para divulgação de meus projetos, atuais e futuros, de software. Em minha visão, o portfólio também atua como um incentivo pessoal, me aguçando a vontade de deixá-lo cada vez mais completo com projetos e habilidades que estarei desenvolvendo duarante toda a minha jornada :grin:
+Em minha visão, o portfólio também atua como um incentivo pessoal, me aguçando a vontade de deixá-lo cada vez mais completo com projetos e habilidades que estarei desenvolvendo durante toda a minha jornada :grin:
 </h4>
 
 ---
@@ -28,7 +33,14 @@ Ou se preferir, digite `luishperna.com.br` no buscador de seu navegador.
 
 ## :mag: Explorando :mag:
 
-> :construction: Em construção :construction:
+<a href="https://luishperna.com.br/">Acessando o portfólio</a> você terá alguns tópicos para explorar, sendo elas:
+
+Tópicos      | Do que se trata?
+:-------:    | :------
+Sobre Mim    | Brevê descrição sobre a minha pessoa <a href="https://github.com/luishperna">(autor)</a>
+Conhecimento | Minhas hard skills de forma mais objetiva/direta
+Projeto      | Apresentação dos meus projetos desenvolvidos
+Contato      | Divulgação dos meus meios de contatos/redes sociais
 
 ---
 
