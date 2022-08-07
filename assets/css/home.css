@@ -177,7 +177,7 @@ aside{
     background-color: #262626;
 }
 
-@media screen and (max-width:720px) and (min-width: 375px){
+@media screen and (max-width:720px) and (min-width: 360px){
     nav ul li{
         display: none;
     }
