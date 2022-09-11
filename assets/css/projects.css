@@ -49,12 +49,11 @@
 }
 
 .links-atalhos{
-    color: #D3D3D3;
+    color: #48D1CC;
 }
 
 .links-atalhos:hover{
     text-decoration: underline;
-	color:#48D1CC;
 }
 
 .botao-acesso{
