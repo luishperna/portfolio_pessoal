@@ -48,11 +48,11 @@
     margin-bottom: 25px;
 }
 
-.link{
+.links-atalhos{
     color: #D3D3D3;
 }
 
-.link:hover{
+.links-atalhos:hover{
     text-decoration: underline;
 	color:#48D1CC;
 }
