@@ -48,11 +48,11 @@
     margin-bottom: 25px;
 }
 
-.link_portfolio{
+.link{
     color: #D3D3D3;
 }
 
-.link_portfolio:hover{
+.link:hover{
     text-decoration: underline;
 	color:#48D1CC;
 }
