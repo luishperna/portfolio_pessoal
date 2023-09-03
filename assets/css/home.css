@@ -111,8 +111,8 @@ h3{
 }
 
 .digitando-animation{
-    animation: piscaCursor 500ms steps(42) infinite normal, 
-    digitando 4s steps(42) 1.2s normal both;
+    animation: piscaCursor 600ms steps(42) infinite normal, 
+    digitando 3s steps(42) 1.2s normal both;
 }
 
 @keyframes piscaCursor{
@@ -129,7 +129,7 @@ h3{
         width: 0;
     }
     to {
-        width: 18.5em;
+        width: 20.1em;
     }
 }
 

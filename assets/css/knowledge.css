@@ -31,14 +31,14 @@
 
 .descrição-cartão{
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 55px;
 }
 
 .faces-cartao{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
+    min-height: 350px;
     flex-wrap: wrap;
     text-align: center;
     margin-bottom: 30px;
@@ -47,8 +47,8 @@
 .cartao-frontal, .cartao-traseira{
     position: absolute;
     background-color: #341d08;
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 265px;
     padding: 10px;
     border-radius: 10px;
     transition: 0.7s;
